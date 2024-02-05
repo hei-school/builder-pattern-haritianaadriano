@@ -1,4 +1,7 @@
-package builder;
+package builder.impl;
+
+import builder.Builder;
+import model.Car;
 
 public class CarBuilder implements Builder<Car> {
   public CarBuilder() {

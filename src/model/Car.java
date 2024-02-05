@@ -1,14 +1,14 @@
-package builder;
+package model;
 
 public class Car {
   public Car() {
 
   }
 
-  int seat;
-  String engine;
-  String stripComputer;
-  String GPS;
+  public int seat;
+  public String engine;
+  public String stripComputer;
+  public String GPS;
 
   @Override
   public String toString() {

@@ -1,4 +1,7 @@
-package builder;
+package director;
+
+import builder.impl.CarBuilder;
+import model.Car;
 
 public class Director {
   public Director() {

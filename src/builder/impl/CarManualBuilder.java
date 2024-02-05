@@ -1,4 +1,7 @@
-package builder;
+package builder.impl;
+
+import builder.Builder;
+import model.CarManual;
 
 public class CarManualBuilder implements Builder<CarManual> {
   public CarManualBuilder() {
